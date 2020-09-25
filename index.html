@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <style>
+      input[type="checkbox"] {
+        -webkit-appearance: none;
+        width: 100px;
+        height: 50px;
+        position: relative;
+        background: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png)
+          center center no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+      }
+      input[type="checkbox"]::before {
+        content: " ";
+        background-color: rgb(244, 189, 33);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      input[type="checkbox"]:checked {
+        background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
+      }
+      input[type="checkbox"]:checked::before {
+        transform: translate(100%);
+        background-color: #222d5a;
+      }
+      nav {
+        background: url(https://img.freepik.com/foto-gratis/viejo-fondo-textura-madera-vintage_55716-1138.jpg?size=626&ext=jpg)
+          center center no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center !important;
+      }
+      #primer_parrafo img,
+      #tercer_parrafo img {
+        float: left;
+      }
+      #segundo_parrafo img {
+        float: right;
+      }
+      img {
+        padding: 5px;
+      }
+      .dark-mode {
+        color: white;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body id="dark-mode">
+    <nav class="navbar navbar-light bg-light">
+      <input id="input-dark-mode" type="checkbox" />
+    </nav>
+    <section id="lectura">
+      <div id="primer_parrafo">
+        <img src="./images/pinocho_1.jpg" alt="" />
+        <p>
+          Había una vez un carpintero llamado Mastro Cereza, era el artesano más
+          anciano de la región y sus arrugadas manos eran capaces de hacer
+          auténticas obras de arte con la madera. Pese a su avanzada edad, todos
+          los días el Maestro Cereza subía a lo alto del monte a talar la madera
+          que necesitara para hacer sus trabajos. Una fría mañana de invierno,
+          Cereza encontró un extraño tocón de madera en medio de la espesura del
+          bosque. Tenía un color maravilloso, casi parecía brillar. Además,
+          frente al aspecto tosco y salvaje de los troncos de la zona, este
+          parecía haber sido ya pulido y tratado con barniz. El anciano
+          carpintero, lo ató a su espalda y se encaminó de vuelta a su taller,
+          pensando en lo maravillados que quedarían todos los habitantes del
+          pueblo al ver la mesa que podría tallar con esa madera tan
+          espectacular.
+        </p>
+      </div>
+      <div id="segundo_parrafo">
+        <img src="./images/pinocho_2.jpg" alt="" />
+        <p>
+          Al llegar al taller, el maestro preparo rápidamente sus herramientas y
+          cuando estaba a punto de cortarlo, el trozo de madera comenzó a
+          hablar. ¡No, no me hagas daño! Por favor… El maestro carpintero pensó
+          que estaba soñando, se restregó los ojos y agarró su punzón favorito.
+          Muy despacio, colocó la punta sobre la madera y apretó un poquito…
+          ¡Ay! ¡Ay! ¡No me pinches! Asustado, Mastro Cereza pensó que era una
+          buena idea deshacerse de él inmediatamente. Si se lo decía a alguien,
+          pensaría que estaba loco, así que la dejó encima de la mesa y se puso
+          su abrigo para salir a tomar el aire, nada más abrir la puerta ¡pum!
+          chocó de bruces con su vecino Geppetto, que estaba en la puerta. El
+          barrio donde ambos vivían era el lugar donde trabajaban y habitaban
+          todos los artesanos de la madera, allí había carpinteros, ebanistas,
+          zapateros… Geppetto hacía zapatos y marionetas y esa mañana había
+          acudido al Maestro Cereza para contarle un nuevo proyecto que tenía en
+          mente… ¡Quería hacer una marioneta! pero no una cualquiera, su títere
+          sería el más grande de la ciudad, casi del tamaño de un niño de
+          verdad. Entonces, el Maestro Cereza vio la oportunidad de deshacerse
+          de ese tronco de madera tan extraño, se lo regaló a Geppetto y este,
+          loco de contento, volvió a casa con el trozo de madera bajo el brazo,
+          pensando en el nombre que le pondría al títere: «¡Lo llamaré Pinocho!
+          » «¡Ese nombre le traerá suerte!» Cuando llegó a su taller, empezó a
+          tallarla, pero de repente…
+        </p>
+      </div>
+      <div id="tercer_parrafo">
+        <img src="./images/pinocho_3.jpg" alt="" />
+        <p>
+          «¡Ay, me haces daño! » dijo el trozo de madera… Para su sorpresa, la
+          pieza de madera estaba hablando a Geppetto. Por imposible que parezca,
+          el hecho de que ese trozo de madera hablara, no le resultó
+          inquietante… cogió un paño, le paso un poco de barniz por encima y le
+          dijo, tranquilo, voy a tallarte muy despacio, no vas a notar más que
+          unas cosquillas. El buen hombre, entusiasmado, continuó su trabajo:
+          primero modeló la cabeza, el pelo y luego los ojos, que inmediatamente
+          comenzaron a mirarlo. Acababa de hacer la nariz cuando una fría mano
+          de madera le quitó las gafas. Sin ellas, Geppetto no veía nada y tan
+          solo podía escuchar las risas que salían de la marioneta. Geppetto,
+          con lágrimas en los ojos, exclamó: «¡Qué hijo tan travieso! ¡No te he
+          terminado todavía y ya estás empezando a hacerme reír » Estuvo
+          trabajando toda la noche sin moverse del sitio, al día siguiente,
+          había una marioneta del tamaño de un niño sentada en la mesa de
+          trabajo. El amable zapatero trató de enseñarle a caminar. Pinocho, con
+          las piernas estiradas, dio un par de pasos torpes y poco después
+          comenzó a correr alrededor de la habitación y Geppetto detrás, sin
+          poder alcanzarlo, hasta que el títere abrió la puerta salió a la
+          calle. Geppeto trató de cogerle, pero Pinocho corrió más rápido que él
+          y aunque el pobre zapatero no paraba de gritar: «¡Detente! ¡No corras!
+          » la gente se reía de la escena y nadie le ayudaba. Afortunadamente,
+          un soldado, después de oír los gritos puso la zancadilla a Pinocho,
+          que tropezó y se calló al suelo. ¡Te voy a tirar de las orejas! » dijo
+          el soldado. ¿Has robado a este anciano? Pinocho, muy asustado no
+          hablaba, solo miraba con esos enormes ojos a su fatigado padre.
+          Geppetto, igual de asustado que Pinocho pidió disculpas al soldado, le
+          dijo que era solo un juego y que no volvería a pasar. Así que el
+          soldado, dejó irse a Geppetto y a Pinocho, no sin antes tener que
+          escuchar una buena reprimenda. El títere abrazó a su padre: «¡Me
+          portaré bien, te ayudaré en el taller, iré al colegio y seré el que
+          mejores notas saque! » exclamó feliz. Geppetto, conmovido, respondió:
+          «Te agradezco tus buenas intenciones, pero ni siquiera tenemos dinero
+          para comprar los libros». Ambos volvieron caminando hacia el taller en
+          silencio… Empezaba a nevar. Una mañana, Pinocho estaba adormilado
+          cuando escuchó un ruido en la puerta. Alguien trataba de abrir desde
+          fuera. Pensando que eran ladrones, Pinocho se asomó por la ventana y
+          allí vio a su padre, tiritando de frío mientras sujetaba una bolsa de
+          tela con una mano y con la otra trataba de abrir el portón del taller.
+        </p>
+      </div>
+    </section>
+    <script>
+      const botonNocturno = document.getElementById("input-dark-mode");
+      const cuerpoHTML = document.getElementById("dark-mode");
+      botonNocturno.onclick = (e) => {
+        if (botonNocturno.checked) {
+          cuerpoHTML.classList.add("dark-mode");
+        } else {
+          cuerpoHTML.classList.remove("dark-mode");
+        }
+      };
+    </script>
+  </body>
+</html>
